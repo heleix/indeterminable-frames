@@ -35,17 +35,17 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#00c0b9;
+  color:#636363;
   text-decoration:none;
 }
 
 a:hover {
-  color:#636363;
+  color:#000000;
 }
 
 a small {
   font-size:11px;
-  color:#00c0b9;
+  color:#636363;
   margin-top:-0.3em;
   display:block;
 }
