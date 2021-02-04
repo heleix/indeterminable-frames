@@ -35,7 +35,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#000000;
+  color:#00c0b9;
   text-decoration:none;
 }
 
@@ -45,7 +45,7 @@ a:hover {
 
 a small {
   font-size:11px;
-  color:#000000;
+  color:#00c0b9;
   margin-top:-0.3em;
   display:block;
 }
