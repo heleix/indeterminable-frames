@@ -31,7 +31,7 @@
 
         <h2>Generating Images From a Digital Video File</h2>
 
-        <p>To generate "still-images" from a digital video file, I used <a href="https://ffmpeg.org/" target="_blank">FFmpeg</a>, an open-source command line tool for multimedia files. Below is the command I entered on the command line interface (CLI) to accomplish the task.
+        <p>To derive a number of still-images from a digital video file, I used <a href="https://ffmpeg.org/" target="_blank">FFmpeg</a>, an open-source command line tool for multimedia files. Below is the command I entered on the command line interface (CLI) to accomplish the task.
 	       <pre><code>ffmpeg -i inputvideo.mp4 -vf fps=1 directory/outputname_%03d.png</code></pre>
 
         <p>
@@ -47,7 +47,7 @@
         <code>-vf fps=1</code> = the video filter (<code>-vf</code>) tool on FFmpeg will sample 1 image for every second of the file, i.e. fps = "frames per second"
         <br>
         <br>
-        <code>directory/outputname_%03d.png</code> = specifies the directory where the derivative still-images are saved, a numerically ordered naming convention (<code>%03</code> dictates that the ordinal number of each output image will be formatted using 3 digits, e.g. outputname_001, outputname_002, and so on), and the file format for the images (can be .jpg, .png, etc.)
+        <code>directory/outputname_%03d.png</code> = specifies the directory where the derivative still-images are saved, a numerically ordered naming convention (<code>%03</code> dictates that the ordinal number of each output will be formatted using 3 digits, e.g. outputname_001, outputname_002, and so on), and the file format for the images (can be .jpg, .png, etc.)
         <br>
         <br>
         I was able to find the necessary command thanks to the <a href="https://trac.ffmpeg.org/wiki/Create%20a%20thumbnail%20image%20every%20X%20seconds%20of%20the%20video" target="_blank">FFmpeg wiki</a> and <a href="https://amiaopensource.github.io/ffmprovisr/#multi_thumbnail" target="_blank">ffmprovisr</a>, a repository of FFmpeg commands for archivists created by the Association of Moving Image Archivists (AMIA) Open Source Committee.
