@@ -68,7 +68,7 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  font-size:11px;
+  font-size:12px;
   color:#ff4da6;
 }
 
@@ -191,7 +191,7 @@ footer {
   width:270px;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:30px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
