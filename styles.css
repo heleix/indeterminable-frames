@@ -154,6 +154,14 @@ header ul a:active {
   background-color:#f0f0f0;
 }
 
+.screen-reader-only {
+  position: absolute;
+  width: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 strong {
   color:#222;
   font-weight:500;
